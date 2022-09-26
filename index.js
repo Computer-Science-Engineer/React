@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Operation from './Operation';
+//import App from './App';
+import Primef from './primef';
+import { Primec } from './primec';
+import Fibonaccif from './fibonaccif';
+import { Fibonaccic } from './fibonaccic';
+import Sumarrayf from './sumarrayf';
+import { Sumarrayc } from './sumarrayc';
+import Reversestr from './reversestr';
+import { Reversestrc } from './reversestrc';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Operation />
+    <Primef />
+    <Primec />
+    <Fibonaccif />
+    <Fibonaccic />
+    <Sumarrayf />
+    <Sumarrayc />
+    <Reversestr />
+    <Reversestrc />
   </React.StrictMode>
 );
 
